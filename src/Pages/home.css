@@ -1,0 +1,22 @@
+.home1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.home1 img{
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+}
+.exphead{
+    margin-left: 90px;
+    font-size: 34px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.upimg{
+    text-transform: uppercase;
+}

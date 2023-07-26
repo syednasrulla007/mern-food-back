@@ -1,0 +1,42 @@
+.category{
+    text-align: center;
+    text-transform: uppercase;
+ display: flex;
+ flex-direction: column;    
+}
+.m1{
+    height: 400px;
+    width: 600px;
+}
+.m2{
+    height: 400px;
+    width: 600px;
+}
+.m3{
+    height: 400px;
+    width: 600px;
+}
+.m4{
+    height: 400px;
+    width: 600px;
+}
+.m5{
+    height: 400px;
+    width: 600px;
+}
+.m6{
+    height: 400px;
+    width: 600px;
+}
+.m7{
+    height: 400px;
+    width: 600px;
+}
+.m8{
+    height: 400px;
+    width: 600px;
+}
+.m9{
+    height: 400px;
+    width: 600px;
+}

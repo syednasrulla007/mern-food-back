@@ -1,0 +1,52 @@
+.footer{
+   
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+}
+.div1foot i {
+    margin: 10px;
+}
+.div2foot{
+    margin-left: 300px;
+}
+
+.div1foot i:hover {
+   color: yellow;
+   cursor: pointer;
+}
+.all{
+    display: flex;
+    
+    
+}
+.foot1{
+    display: flex;
+   
+}
+
+.foot1 p{
+    margin: 10px;
+    text-transform: uppercase;
+    
+}
+.foot1 p:hover{
+   color: yellow;
+   cursor: pointer;
+  
+  }
+.all p{
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.all p:hover{
+   color: yellow;
+   cursor: pointer;
+}
+.div1foot,.div2foot{
+    width: 50%;
+}

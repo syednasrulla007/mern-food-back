@@ -1,0 +1,38 @@
+.exphead{
+    margin-left: 90px;
+    font-size: 34px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.explore{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0;
+    text-align: center;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.explore div img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.explore div img h4{
+    /* text-align: center; */
+    color: black;
+    font-weight: normal;
+    text-transform: uppercase;
+   
+}
+.explore Link{
+    text-decoration: none;
+    color: black;
+}
+@media only screen and (max-width: 968px) {
+    .explore{
+        flex-direction: column;
+    }
+}

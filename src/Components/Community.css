@@ -1,0 +1,158 @@
+
+
+#find-more-recipes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+#find-more-recipes h2{
+    margin-bottom: 2rem;
+}
+
+#find-more-recipes-search-bar input[type=search]{
+    width: 55rem;
+    height: 2.5rem;
+    border: none;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-weight: 900;
+    outline: none;
+}
+
+#find-more-recipes-search-bar{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 0.2rem 1rem;
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 2rem;
+}
+
+#find-more-recipes-container button{
+    margin-top: 3rem;
+    width: 18rem;
+    height: 2.5rem;
+    background-color: #f5ce35;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 900;
+    cursor: pointer;
+    border-radius: 0.2rem;
+}
+
+#find-more-recipes-search-data{
+    margin-top: 3rem;
+}
+
+#find-more-recipes-search-data h2{
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+}
+
+#find-more-recipes-search-data-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#find-more-recipes-search-data-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 3rem;
+    width: 70%;
+}
+
+#find-more-recipes-search-data-cards{
+    width: 17rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    border: 1px solid rgb(238, 238, 238);
+    padding: 1rem;
+    cursor: pointer;
+}
+
+#find-more-recipes-search-data-cards img{
+    width: 15rem;
+    height: 15rem;
+    margin-bottom: 1rem;
+}
+@media screen and (min-width: 320px) and (max-width: 600px) {
+    
+#find-more-recipes {
+    width: 300%;
+}
+
+#find-more-recipes h2 {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+#find-more-recipes-search-bar input[type=search] {
+    width: 55rem;
+    height: 4rem;
+    font-size: 3rem;
+}
+
+#find-more-recipes-search-bar {
+    padding: 2rem 3rem;
+    border: 3px solid rgb(172, 172, 172);
+    border-radius: 5rem;
+}
+
+#find-more-recipes-search-bar-search-icon{
+    font-size: 3rem;
+    margin-right: 2rem;
+}
+
+#find-more-recipes-container button {
+    margin-top: 5rem;
+    width: 23rem;
+    height: 4rem;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+#find-more-recipes-search-data {
+    margin-top: 3rem;
+    width: 300%;
+}
+
+#find-more-recipes-search-data h2 {
+    font-size: 4rem;
+}
+
+#find-more-recipes-search-data-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 3rem;
+    width: 100%;
+}
+
+#find-more-recipes-search-data-cards {
+    width: 67rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    border: 1px solid rgb(238, 238, 238);
+    padding: 2rem;
+    cursor: pointer;
+    margin-left: 5rem;
+}
+
+#find-more-recipes-search-data-cards img {
+    width: 63rem;
+    height: 50rem;
+    margin-bottom: 1rem;
+}
+
+#find-more-recipes-search-data-cards h3 {
+    font-size: 4rem;
+}
+
+}
